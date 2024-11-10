@@ -1,0 +1,66 @@
+# **Sistema de Coleta e Entrega de Portfólio**
+
+Este projeto é um sistema de coleta e entrega de portfólio inspirado na experiência de aplicativos como iFood. O objetivo é oferecer uma interface simples, intuitiva e eficiente, cobrindo todo o processo de pedido, rastreamento e entrega.
+
+---
+
+## **Passo a Passo**
+
+### **1. Registro de Usuário**
+1. Crie uma tela inicial para login e cadastro.
+2. Solicite as seguintes informações no cadastro:
+   - Nome completo
+   - E-mail
+   - Telefone
+   - Endereço principal
+   - Criação de senha
+3. Envie um e-mail ou SMS de verificação para validar o registro.
+4. Configure uma base de dados para armazenar as informações de usuários com segurança (use criptografia para senhas).
+
+---
+
+### **2. Pedido do Portfólio**
+1. Crie uma interface para o usuário iniciar um novo pedido:
+   - Botão "Novo Pedido".
+2. Inclua campos para:
+   - Nome do portfólio.
+   - Dimensões e peso estimado (opcional).
+   - Endereço de coleta.
+   - Endereço de entrega.
+   - Data e horário preferencial para a coleta.
+3. Adicione validações automáticas para:
+   - Endereços inválidos.
+   - Horários fora do permitido.
+4. Exiba um resumo do pedido e um botão "Confirmar Pedido".
+
+---
+
+### **3. Histórico de Pedidos**
+1. Adicione uma aba "Histórico" na interface principal.
+2. Exiba os pedidos anteriores em uma lista com:
+   - Nome do portfólio.
+   - Status do pedido (coleta, entrega, finalizado, cancelado).
+   - Data e horário.
+3. Inclua filtros como:
+   - "Pedidos Finalizados".
+   - "Pedidos Em Andamento".
+   - "Pedidos Cancelados".
+
+---
+
+### **4. Rastreabilidade**
+1. Crie uma interface de rastreamento disponível na aba "Pedidos Ativos".
+2. Conecte-se a uma API de geolocalização para rastrear o entregador.
+3. Mostre um mapa em tempo real com:
+   - Localização atual do entregador.
+   - Tempo estimado para chegada (ETA).
+4. Notifique o usuário em caso de:
+   - Alterações no status do pedido.
+   - Atrasos na entrega.
+
+---
+
+### **5. Confirmação de Pedido**
+1. Após o preenchimento dos dados do pedido:
+   - Exiba uma tela de resumo com todas as informações.
+2.
